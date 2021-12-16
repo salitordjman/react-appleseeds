@@ -1,0 +1,8 @@
+.box {
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+}
+.circleBox {
+border-radius: 50%;
+}

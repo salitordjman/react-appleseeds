@@ -1,0 +1,15 @@
+.box {
+  background-color: palevioletred;
+  margin: 5px;
+}
+.inOut {
+  animation: inOut1 2s linear;
+}
+@keyframes inOut1 {
+  0% {
+    transform: translateX(-250PX);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

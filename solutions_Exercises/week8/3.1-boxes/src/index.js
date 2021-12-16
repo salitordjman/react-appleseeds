@@ -14,6 +14,7 @@ const App = () => {
         <div className="pink">
         <PurpleBox />
         <PurpleBox />
+        
         </div>  
       </div>
     </div>
