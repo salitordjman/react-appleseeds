@@ -1,0 +1,14 @@
+.loader {
+  width: calc(13vh + 13vw);
+  height: calc(13vh + 13vw);
+  margin: 1rem;
+  border: calc(1.5vh + 1.5vw) solid rgb(230, 230, 230);
+  border-radius: 50%;
+  border-left-color: rgb(29, 197, 29);
+  animation: load 1.5s linear infinite;
+}
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}
