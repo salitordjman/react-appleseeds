@@ -1,0 +1,43 @@
+<HTML>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://fb.me/react-0.14.0.js"></script>
+    <script src="https://fb.me/react-dom-0.14.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.min.js"></script>
+    <style>
+        .box {
+            background: mediumvioletred;
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 0;
+        }
+
+        .pop-in {
+            -webkit-animation: popinanim 1s ease-in;
+        }   
+
+        .pop-out {
+            -webkit-animation: popinanim 1s ease-in;
+            animation-direction: reverse;
+        }
+
+        @-webkit-keyframes popinanim {
+            0% {
+                left: -200px;
+            }
+            100% {
+                right: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="./box-animation.js"></script>
+</body>
+
+</HTML>

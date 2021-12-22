@@ -15,11 +15,11 @@ class App extends Component {
   // handleClick(){
 
   handleClick=()=>{
-    this.setState(prevState => {
-      return{
-        count: prevState.count+1
-      }
-    })
+    // this.setState(prevState => {
+    //   return{
+    //     count: prevState.count+1
+    //   }
+    // })
   }
   render(){
     return (

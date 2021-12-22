@@ -1,0 +1,27 @@
+div {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.green {
+  background: lightgreen;
+}
+
+.blue {
+  background: lightskyblue;
+}
+
+.pink {
+  background: lightpink;
+}
+
+.purple {
+  background: plum;
+}
+
+.circle {
+  border-radius: 57px;
+}
