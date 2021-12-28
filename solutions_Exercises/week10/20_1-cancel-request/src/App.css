@@ -1,0 +1,28 @@
+* {
+  background: navajowhite;
+}
+.all {
+  font-size: 25px;
+  padding: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.person {
+  text-align: center;
+  margin: 2.5vh;
+  border: 2px solid black;
+  height: 40vh;
+  width: 25vw;
+}
+img {
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+}
+button {
+  background: rgb(206, 206, 206);
+  height: 25px;
+}
+input {
+  background-color: honeydew;
+}
